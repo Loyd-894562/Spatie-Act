@@ -17,7 +17,7 @@ class PermissionSeeder extends Seeder
     {
         $user = User::create([
             'name' => 'Administrator',
-            'email' =>'eun@gmail.com',
+            'email' =>'lyod@gmail.com',
             'password' =>bcrypt('password123')
         ]);
 
